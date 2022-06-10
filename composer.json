@@ -1,0 +1,28 @@
+{
+    "name": "bananneale/livewire-calendar",
+    "description": "Calendar package for livewire",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bananneale\\LaravelCalendar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alessio Bonanni",
+            "email": "bonanni.1792448@studenti.uniroma1.it"
+        }
+    ],
+    "require": {
+        "livewire/livewire": "^2.5",
+        "laravel/jetstream": "^2.8"
+    },        
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bananneale\\LivewireCalendar\\LivewireCalendarServiceProvider"
+            ]
+        }
+
+    }
+}
